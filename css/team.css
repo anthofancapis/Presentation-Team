@@ -16,10 +16,6 @@ ul {
   list-style: none;
 }
 
-label {
-  display: block;
-}
-
 a {
   color: white;
   text-decoration: none;
@@ -451,7 +447,6 @@ span {
 
 .like-label {
   display: flex;
-  flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
 }
