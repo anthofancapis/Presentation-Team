@@ -1,0 +1,75 @@
+.our-team h2,
+.title-work h2,
+.price-title h2,
+.info-contact h2 {
+  font-size: 1.5rem;
+}
+
+.our-team-image {
+  width: 100%;
+}
+
+.button-more {
+  top: 90%;
+  right: 5%;
+  font-size: 1.2rem;
+  padding: 0.5rem 0.8rem;
+}
+
+.formulaire form input,
+.formulaire form button {
+  width: 100%;
+}
+
+.header nav {
+  flex-direction: column;
+  text-align: center;
+}
+
+.header nav ul {
+  flex-direction: column;
+  padding: 0;
+}
+
+.header ul li {
+  padding: 0.6rem 0;
+}
+
+.image-work {
+  width: 90%;
+  margin-bottom: 1.5rem;
+}
+
+.container-image {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.section-travail {
+  flex-direction: row;
+}
+
+.container-work {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container-price {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.price-plan {
+  margin-bottom: 2rem;
+}
+
+.info-contact {
+  text-align: center;
+  width: 100%;
+}
+
+.container-contact {
+  flex-direction: column;
+  align-items: center;
+}
