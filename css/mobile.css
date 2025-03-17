@@ -10,7 +10,7 @@
 }
 
 .button-more {
-  top: 90%;
+  top: 98%;
   right: 5%;
   font-size: 1.2rem;
   padding: 0.5rem 0.8rem;
@@ -36,7 +36,10 @@
 }
 
 .image-work {
-  width: 90%;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   margin-bottom: 1.5rem;
 }
 
@@ -45,13 +48,14 @@
   flex-wrap: wrap;
 }
 
-.section-travail {
-  flex-direction: row;
+.title-work {
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .container-work {
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .container-price {
