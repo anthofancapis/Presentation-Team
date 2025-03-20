@@ -188,6 +188,11 @@ span {
   border-radius: 50%;
   width: 45%;
   margin-bottom: 0.6rem;
+  transition: transform 1s;
+}
+
+.our-team-image img:hover{
+  transform: scale(1.2);
 }
 
 .our-team-image h3 {
