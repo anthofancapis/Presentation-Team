@@ -24,6 +24,7 @@ a {
 span {
   font-weight: 700;
 }
+
 /* Header */
 
 .vp-container {
@@ -126,20 +127,25 @@ span {
 }
 
 .learn {
-  background-color: black;
-  border: 1px solid black;
   border-radius: 1rem;
-  display: flex;
-  max-width: 430px;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
   margin-left: 1rem;
 }
 
 .learn p {
+  display: inline;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50px;
   color: white;
   text-transform: uppercase;
   font-size: 2rem;
   padding: 0.5rem;
+  transition: margin-left 3s ease-in-out;
+}
+
+.learn p:hover{
+  margin-left: calc(70% - 100px);
 }
 
 /* Our Team */
@@ -230,11 +236,17 @@ span {
   max-width: 25%;
   margin: 0 0.5rem;
   border-radius: 5px;
+  overflow: hidden;
 }
 
 .image-work img {
   width: 100%;
   border-radius: 5px;
+  transition: transform 0.5s ease-out;
+}
+
+.image-work img:hover {
+  transform: scale(1.1);
 }
 
 .image-work h3 {
@@ -346,6 +358,7 @@ span {
   border: 0;
   transition: 0.5s;
   cursor: pointer;
+  border-radius: 50px;
 }
 
 .price-plan button i {
@@ -445,6 +458,7 @@ span {
   border: 1px solid transparent;
   border-bottom: 1px solid #999;
   flex: auto;
+  height: 2.5rem;
 }
 
 .like-label {
@@ -461,6 +475,7 @@ input[type="checkbox"] {
 
 .like-label button {
   border: 0;
+  border-radius: 50px;
   background-color: black;
   color: white;
   padding: 0.5rem 1rem;
